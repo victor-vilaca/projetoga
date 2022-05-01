@@ -1,0 +1,74 @@
+/* tags */
+body {
+    background-color: aqua;
+    text-align: center;
+    max-width: 1114px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* id's */
+
+#enviar {
+    background-color: black;
+    color: white;
+}
+
+#inputEmail {
+    background-color: aquamarine;
+}
+
+/* class */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: blue;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+.imgDestaque {
+    width: 760px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+}
+
+.iconredes {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.iconredes:hover {
+    opacity: 0.5;
+}
+
+.email {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.email h3 {
+    margin: 0px 0px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border-color: black;
+}
